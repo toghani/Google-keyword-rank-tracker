@@ -1,4 +1,3 @@
-
 from robobrowser import RoboBrowser
 import time
 import pygsheets
@@ -62,7 +61,7 @@ for i in range(len(keywords)):
     print(f"\b\r{int((i/len(keywords))*100)}",end="%")
     wks.update_value((i+2,1), keywords[i])    
 
-    # if you search more than 20 results edit line below
+    # if you want search more than 20 results edit line below
     has_ads, res = keyword_tracker(keywords[i],20,sites)
 
     for j in range(len(sites)):
