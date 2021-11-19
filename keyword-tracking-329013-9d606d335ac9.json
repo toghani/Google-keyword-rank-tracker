@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "keyword-tracking-329013",
+    "private_key_id": "9d606d335a78fabc07",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANB0oD\nvbMWL8Lq6M9n2u14VObZ2cjBHFtCT9IGauTyv0LmI\nGJcgu6FSBqJzfqk2tR9yqN6\njry6g5znDdUJFqOkx5TIYLrg/VX1xs+xk4W4Xb1lg/ECArQtkDd9/FmLKFZ4FnDT\n2MK252Olmvz9pCLo+LtqXoQVHns+mk+diFYgIaQShr6rjV0x6Cn2bXznsQKBgBS4\n+YyZmDbQZ9rnssCiui7nb0xQgPta9F/TgCufVO5+8f5wTW54I+6gxsrE08LC0L8D\ncLmd+7VNoeYRo+glG/FbQ1au+i1wrXAIZN9mNNBCyucPf7BZrNulR0fSUN0rzbbL\n9SY9adL9u9Xp4qx5Cnrrrxnd9aPc2ppF0g9M93mtAoGBANdmX4tnfZsSJLwLSvzq\nb74INjDPu8+sAL+G85sWYpRfEaHzY75\nK9hKEkNZx2jenwt5o38wPJ5GE+nYS1+hSlbPhu/+8d3ZcF/RK5+3V+d\n-----END PRIVATE KEY-----\n",
+    "client_email": "keyword-tracking@keyword-tracking-329014543.iam.gserviceaccount.com",
+    "client_id": "108730952452475235727398494155",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/keyword-tracking%40keyword-tracking-329013.iam.gserviceaccount.com"
+}
