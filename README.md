@@ -21,7 +21,7 @@ pip install pygsheets
 ### Enable the API for use pygsheets
 1.  Head over to the  [Google API Console](https://console.developers.google.com/).
 2.  Create a new project by selecting My Project -> + button
-3.  Search for 'Google Drive API', enable it.
+3.  Search for 'Google Drive API', enable it. (and for Google sheet API)
 4.  Head over to 'Credentials' (sidebar), click 'Create Credentials' -> 'Service Account Key'
 5.  Select Compute Engine service default, JSON, hit create.
 6.  Open up the JSON file, **share your spreadsheet with the "XXX-compute@developer.gserviceaccount.com" email listed.**
