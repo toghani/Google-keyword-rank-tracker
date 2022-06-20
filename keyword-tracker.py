@@ -5,12 +5,12 @@ from datetime import datetime
 
 parser = 'html.parser'
 
-useragent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.47'
-
+desktop_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.47'
 mobile_agent = 'Mozilla/5.0 (Linux; Android 7.0; SM-G930V Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36'
 
+# if you wana check keyword from mobile agent replace desktop_agent with mobile_agent
 def keyword_tracker(keyword, total_count, sites):
-    browser = RoboBrowser(history = False, user_agent = useragent, parser = parser)
+    browser = RoboBrowser(history = False, user_agent = desktop_agent, parser = parser)
     browser.open(f"https://www.google.com/search?num={total_count}&q={keyword}")
     
     time.sleep(0.5)
